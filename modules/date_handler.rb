@@ -20,7 +20,7 @@ module DateHandler
   end
 
   def self.minutes_conversion(minutes)
-    # converts an Integer of minutes into a hash of hours and minutes
+    converts an Integer of minutes into a hash of hours and minutes
     hours = minutes / 60
     minutes_leftover = minutes - (hours * 60)
     { hours: hours, minutes: minutes_leftover }
