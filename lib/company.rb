@@ -10,10 +10,10 @@ class Company
 
   def employees
     CSV.foreach('./data/employees.csv') do |row|
-       employee1 = Employee.new(row[0], row[1], row[2], row[3], row[4])
+      data = row
+       employee1 = Employee.new(data[0], data[1], data[2], data[3], data[4])
 
-      end
-      employee1
+     end
   end
 
 

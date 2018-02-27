@@ -13,6 +13,7 @@ class CompanyTest< MiniTest::Test
   def test_instance_of_company
     company = Company.new
     assert_instance_of Company, company
+    
     assert_equal nil, company.employees
 
 
