@@ -19,7 +19,6 @@ class DateHandlerTest < Minitest::Test
     dh = DateHandler::DHDate.new(date)
     assert dh.date_between(start_date, end_date)
   end
-  #testing for 
 
   def test_days_between
     start_date = Date.new(2018, 1, 1) # January 1, 2018
