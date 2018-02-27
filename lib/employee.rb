@@ -1,4 +1,8 @@
+
+require "csv"
+
 class Employee
+
 
   attr_reader :name, :role, :start_date, :end_date
 
