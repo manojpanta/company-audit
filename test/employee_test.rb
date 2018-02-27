@@ -16,6 +16,7 @@ class EmployeeTest < Minitest::Test
     assert_equal 5, employee.employee_id
     assert_equal 'Engineer', employee.role
     assert_equal '2015-01-01', employee.start_date
+    assert_equal Integer, employee.employee_id.class
 
 
 
